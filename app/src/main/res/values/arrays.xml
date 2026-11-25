@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories">
+        <item>@string/category_electronics</item>
+        <item>@string/category_food</item>
+        <item>@string/category_office</item>
+        <item>@string/category_household</item>
+        <item>@string/category_other</item>
+    </string-array>
+
+    <string-array name="sort_options">
+        <item>@string/sort_name_asc</item>
+        <item>@string/sort_price_asc</item>
+        <item>@string/sort_price_desc</item>
+        <item>@string/sort_quantity_asc</item>
+        <item>@string/sort_quantity_desc</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#FBF8FF</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="lavender">#B8A9E8</color>
+    <color name="lavender_dark">#5B4B9A</color>
+    <color name="mint">#A8E6CF</color>
+    <color name="peach">#FFD3B6</color>
+    <color name="pink">#FFB7C5</color>
+    <color name="sky">#A7D8F0</color>
+    <color name="lemon">#FFF1B8</color>
+
+    <color name="text_primary">#3D3A50</color>
+    <color name="text_secondary">#8C88A3</color>
+
+    <color name="warning">#E5575E</color>
+    <color name="warning_background">#FFE3E6</color>
+
+    <color name="neutral_disabled">#D8D5E3</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Màn hình đăng nhập/đăng ký: nền navy, thẻ bo góc trên dạng bottom sheet -->
+    <color name="navy">#1C2561</color>
+    <color name="input_fill">#F1F0F7</color>
+    <color name="lavender_tint">#E8E2FA</color>
+</resources>

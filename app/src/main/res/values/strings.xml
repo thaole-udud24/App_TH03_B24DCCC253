@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lý kho hàng</string>
+
+    <!-- Login -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Quản lý kho hàng của bạn</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="error_login_empty">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="error_login_wrong">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="no_account_register">Chưa có tài khoản? Đăng ký</string>
+
+    <!-- Register -->
+    <string name="register_title">Tạo tài khoản</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="error_username_empty">Tên đăng nhập không được để trống</string>
+    <string name="error_username_exists">Tên đăng nhập đã tồn tại</string>
+    <string name="error_password_short">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="error_password_mismatch">Hai mật khẩu không khớp</string>
+    <string name="back_to_login">Đã có tài khoản? Đăng nhập</string>
+
+    <!-- Main -->
+    <string name="greeting_format">Xin chào, %1$s</string>
+    <string name="main_subtitle">Quản lý kho hàng</string>
+    <string name="action_filter">Lọc</string>
+    <string name="action_view_detail">Xem chi tiết</string>
+    <string name="action_collapse">Thu gọn</string>
+    <string name="list_section_title">Danh sách sản phẩm</string>
+    <string name="stat_total_products">Tổng sản phẩm</string>
+    <string name="stat_total_value">Giá trị kho</string>
+    <string name="stat_low_stock">Sắp hết hàng</string>
+    <string name="hint_search">Tìm sản phẩm theo tên…</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_low_stock">Sắp hết hàng</string>
+    <string name="filter_inactive">Ngừng kinh doanh</string>
+    <string name="sort_name_asc">Tên A–Z</string>
+    <string name="sort_price_asc">Giá tăng</string>
+    <string name="sort_price_desc">Giá giảm</string>
+    <string name="sort_quantity_asc">Số lượng tăng</string>
+    <string name="sort_quantity_desc">Số lượng giảm</string>
+    <string name="empty_list_title">Kho hàng còn trống</string>
+    <string name="empty_list_message">Nhấn nút “+” để thêm sản phẩm đầu tiên</string>
+    <string name="empty_search_title">Không tìm thấy sản phẩm</string>
+    <string name="empty_search_message">Thử từ khóa hoặc bộ lọc khác</string>
+    <string name="label_low_stock">Sắp hết hàng</string>
+    <string name="label_inactive">Ngừng kinh doanh</string>
+    <string name="action_logout">Đăng xuất</string>
+    <string name="undo_delete_message">Đã xóa “%1$s”</string>
+    <string name="action_undo">Hoàn tác</string>
+    <string name="category_chart_title">Giá trị kho theo loại</string>
+
+    <!-- Add/Edit product -->
+    <string name="add_product_title">Thêm sản phẩm</string>
+    <string name="edit_product_title">Sửa sản phẩm</string>
+    <string name="hint_product_name">Tên sản phẩm</string>
+    <string name="hint_price">Giá bán (đ)</string>
+    <string name="hint_quantity">Số lượng</string>
+    <string name="hint_category">Loại sản phẩm</string>
+    <string name="hint_product_name_example">Ví dụ: Bàn phím cơ Keychron</string>
+    <string name="label_active_switch">Đang kinh doanh</string>
+    <string name="label_active_switch_desc">Hiển thị sản phẩm trong danh sách bán</string>
+    <string name="hint_description">Mô tả (không bắt buộc)</string>
+    <string name="hint_description_example">Ghi chú thêm về thông số, nhà cung cấp hoặc vị trí kệ…</string>
+    <string name="btn_save_product">Lưu sản phẩm</string>
+    <string name="btn_update_product">Cập nhật</string>
+    <string name="error_name_empty">Tên sản phẩm không được để trống</string>
+    <string name="error_price_invalid">Giá bán phải lớn hơn 0</string>
+    <string name="error_quantity_invalid">Số lượng không được âm</string>
+    <string name="warning_duplicate_name">Đã có sản phẩm cùng tên trong kho</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Chi tiết sản phẩm</string>
+    <string name="action_add_custom">+ Nhập số lượng khác</string>
+    <string name="action_sell_custom">− Bán số lượng khác</string>
+    <string name="stock_history_empty">Chưa có giao dịch nhập/bán nào</string>
+    <string name="label_price">Giá bán</string>
+    <string name="label_quantity">Số lượng tồn</string>
+    <string name="label_stock_value">Giá trị tồn kho</string>
+    <string name="label_description">Mô tả</string>
+    <string name="btn_add_one">Nhập thêm 1</string>
+    <string name="btn_sell_one">Bán 1</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="btn_delete">Xóa sản phẩm</string>
+    <string name="btn_edit">Sửa</string>
+    <string name="out_of_stock_message">Hết hàng</string>
+    <string name="delete_confirm_title">Xóa sản phẩm?</string>
+    <string name="delete_confirm_message_format">Sản phẩm “%1$s” sẽ bị xóa khỏi kho. Hành động này không thể hoàn tác.</string>
+    <string name="btn_confirm">Xóa</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="stock_history_title">Lịch sử nhập/bán</string>
+    <string name="stock_log_in_format">Nhập +%1$d</string>
+    <string name="stock_log_out_format">Bán -%1$d</string>
+    <string name="quantity_dialog_title">Nhập số lượng</string>
+    <string name="error_sell_exceeds_stock">Không thể bán vượt số lượng tồn kho</string>
+
+    <!-- Categories -->
+    <string name="category_electronics">Điện tử</string>
+    <string name="category_food">Thực phẩm</string>
+    <string name="category_office">Văn phòng phẩm</string>
+    <string name="category_household">Gia dụng</string>
+    <string name="category_other">Khác</string>
+</resources>
